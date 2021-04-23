@@ -1,13 +1,13 @@
 \startxmlsetups xml:teisetups
         \xmlsetsetup{#1}{*}{-} 
-        \xmlsetsetup{#1}{TEI|teiHeader|fileDesc|titleStmt|sourceDesc|listObject|objectName|profileDesc|creation|idno|text|body|front|list|item|div|head|p|seg|bibl|ref|note}{xml:*}
+        \xmlsetsetup{#1}{TEI|teiHeader|fileDesc|titleStmt|sourceDesc|listObject|objectName|profileDesc|creation|idno|text|body|front|list|item|div|head|p|choice|abbr|expan|seg|bibl|ref|note|hi}{xml:*}
         \xmlsetsetup{#1}{title[@level='a']}{xml:title_a}
 		\xmlsetsetup{#1}{title[@level='s']}{xml:title_s}
        	\xmlsetsetup{#1}{name[@role='Sprecher']}{xml:sprecher}
        	\xmlsetsetup{#1}{name[@role='Erwaehnung']}{xml:erwaehnt}     
+       	\xmlsetsetup{#1}{name[@type='Organisation']}{xml:organisation}
+       	\xmlsetsetup{#1}{name[@type='Ort']}{xml:place}
 \stopxmlsetups
-
-
 
 \xmlregistersetup{xml:teisetups}
 
@@ -19,6 +19,7 @@
 \setuptolerance[tolerant]
 \setuppagenumbering
 			[location={footer,right}]
+\setupheadertexts[Fraktionsprotokolle.de][erzeugt am \currentdate]
 
 
 \startxmlsetups xml:TEI
@@ -38,7 +39,7 @@
 \stopxmlsetups
 
 \startxmlsetups xml:title_a
-	\title{\xmlflush{#1}}
+	\title{Man kann hier auch beliebigen statischen Text vor den aus der XML-Datei gezogenen String » \xmlflush{#1} « packen!}
 \stopxmlsetups
 
 \startxmlsetups xml:profileDesc
@@ -83,7 +84,7 @@
 
 \startxmlsetups xml:head
 	{\bf \xmlflush{#1}}
-		\blank[line]
+	\blank[small]
 \stopxmlsetups
 
 \startxmlsetups xml:p
@@ -93,9 +94,7 @@
         \xmlflush{#1}
         \removeunwantedspaces
     }
-    \par
-		
-		
+    \par	
 \stopxmlsetups
 
 \startxmlsetups xml:sprecher
@@ -108,13 +107,37 @@
 	\xmlflush{#1}}
 \stopxmlsetups
 
+\startxmlsetups xml:organisation
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:place
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:choice
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:abbr
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:expan
+	\startfootnote
+		\xmlflush{#1}
+	\stopfootnote
+\stopxmlsetups
+
 \startxmlsetups xml:seg
 		\xmlflush{#1}
 \stopxmlsetups
 
 
 \startxmlsetups xml:note
-	\startfootnote\xmlflush{#1}\stopfootnote	
+	\startfootnote
+		\xmlflush{#1}
+	\stopfootnote	
 \stopxmlsetups
 
 \startxmlsetups xml:bibl
@@ -123,4 +146,9 @@
 
 \startxmlsetups xml:ref
 		\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:hi
+		{\smallcaps
+		\xmlflush{#1}}
 \stopxmlsetups

@@ -179,7 +179,10 @@
 						type="Person" role="Sprecher" ref="#MoellerAlex_1961-10-17">Möller</name>
 				</p>
 				<p>Der <name type="Person" role="Sprecher" ref="#MoellerAlex_1961-10-17"
-						>Bundesfinanzminister</name> legte ein vorläufiges Zahlenbild der Mifrifi vor, um den finanziellen Spielraum für ausgabenwirksame Maßnahmen aufzuzeigen. Der Minister berichtete, daß der Bund keine vollen Kassen habe und daß deshalb eine erste Anleihe über 400 Mio. DM aufgenommen wurde. Er berichtete, daß im Dezember mit einer zweiten Anleihe über 700 Mio. DM zu rechnen sei, um den Kassenanforderungen an den Bund genügen zu können. <name
+						>Bundesfinanzminister</name> legte ein vorläufiges Zahlenbild der <choice>
+						<abbr>Mifrifi</abbr>
+						<expan>Mittelfristige Finanzplanung</expan>
+					</choice> vor, um den finanziellen Spielraum für ausgabenwirksame Maßnahmen aufzuzeigen. Der Minister berichtete, daß der Bund keine vollen Kassen habe und daß deshalb eine erste Anleihe über 400 Mio. DM aufgenommen wurde. Er berichtete, daß im Dezember mit einer zweiten Anleihe über 700 Mio. DM zu rechnen sei, um den Kassenanforderungen an den Bund genügen zu können. <name
 						type="Person" role="Sprecher" ref="#MoellerAlex_1961-10-17"
 						>Möller</name> wies darauf hin, daß der V. Deutsche Bundestag einstimmig ausgabenwirksame Beschlüsse gefaßt habe, die erst Anfang 1970 ausgabenwirksam würden. Dies sei eine schwere Hypothek. Im alten Kabinett sei keine Fortschreibung der Mifrifi erreicht worden. <name
 						type="Person" role="Erwaehnung" ref="#StraußFranzJosef_1949-09-07"
@@ -648,6 +651,9 @@
 						>Wehner</name> sprach sich dafür aus, Berlin-Sitzungen so oft abzuhalten, wie es die SPD für notwendig halte. Man werde sich nicht nach der CDU/CSU richten, die drei- oder viermal im Jahr eine Sitzung des Bundestages fordere. <name
 						type="Person" role="Erwaehnung" ref="#WehnerHerbert_1949-09-07"
 						>Wehner</name> sprach sich gegen spektakuläre Wochen in Berlin aus, aus diesem Korsett müsse man herauskommen. Man solle in Berlin soviel arbeiten, wie man könne, jedoch keine schematischen Festsetzungen vornehmen.</p>
+				<p>Test für <seg type="note">Autorname<note xml:id="spd_atm_mst_jpb" type="comment"
+									><p>Vergleiche <hi rendition="#smcap"
+								>Stalmann</hi>: Die CSU, S. 123.</p></note></seg>.</p>
 			</div>
 		</body>
 	</text>
