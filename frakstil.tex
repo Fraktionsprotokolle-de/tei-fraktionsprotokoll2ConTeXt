@@ -1,0 +1,105 @@
+
+
+\startxmlsetups xml:teisetups
+        \xmlsetsetup{#1}{*}{-}
+       	\xmlsetsetup{#1}{TEI|text|body|front|list|item|div|head|p|seg|bibl|ref|note}{xml:*}
+       	\xmlsetsetup{#1}{name[@role='Sprecher']}{xml:sprecher}
+       	\xmlsetsetup{#1}{name[@role='Erwaehnung']}{xml:erwaehnt}
+       	
+      
+\stopxmlsetups
+
+\xmlregistersetup{xml:teisetups}
+
+
+\setuppapersize[A4]
+\mainlanguage[de]
+\setupbodyfont[termes,11pt]
+\setupwhitespace[small]
+\setuptolerance[tolerant]
+\setuppagenumbering
+			[location={footer,right}]
+\defineparagraphs
+			[Absatz]
+			[n=1,
+			before={\blank}]
+			
+%\setupnote[footnote][
+%  paragraph=yes]
+
+\startxmlsetups xml:TEI
+
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:text
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:front
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:list
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:item
+	\startitemize
+	\item\xmlflush{#1}
+	\stopitemize
+\stopxmlsetups
+
+\startxmlsetups xml:body
+    \xmlflush{#1}
+\stopxmlsetups
+
+
+\startxmlsetups xml:div
+	\blank[line]
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:head
+	{\bf \xmlflush{#1}}
+		\blank[line]
+\stopxmlsetups
+
+\startxmlsetups xml:p
+		\xmldoifnotselfempty {#1} {
+        \dontleavehmode
+        \ignorespaces
+        \xmlflush{#1}
+        \removeunwantedspaces
+    }
+    \par
+		
+		
+\stopxmlsetups
+
+\startxmlsetups xml:sprecher
+	{\bf
+	\xmlflush{#1}}
+\stopxmlsetups
+
+\startxmlsetups xml:erwaehnt
+	{\it
+	\xmlflush{#1}}
+\stopxmlsetups
+
+\startxmlsetups xml:seg
+		\xmlflush{#1}
+\stopxmlsetups
+
+
+\startxmlsetups xml:note
+	\startfootnote\xmlflush{#1}\stopfootnote	
+\stopxmlsetups
+
+\startxmlsetups xml:bibl
+		\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:ref
+		\xmlflush{#1}
+\stopxmlsetups
