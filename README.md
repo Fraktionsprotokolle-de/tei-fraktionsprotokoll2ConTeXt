@@ -10,7 +10,9 @@ Alle wichtigen Informationen werden als Text dargestellt. Sprechernamen sind fet
 
 
 To-Do:
-
+- der Inhalt des Elements Name Type=Organisation wird noch nicht angezeigt (vergessen)
+- Inhalt des Elements für Orte (obsolet) muss noch angezeigt werden
 - Metadaten aus dem teiHeader (Titel, Fraktion, Datum)
-- Layout verbessern (Silbentrennung!)
-- 
+- Abkürzungen
+- Layout & Mengensatz verbessern (Silbentrennung? Eventuell linksbündig setzen?)
+- incidents? Wie darstellen?
