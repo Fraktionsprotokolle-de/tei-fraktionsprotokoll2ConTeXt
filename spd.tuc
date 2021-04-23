@@ -196,7 +196,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=4,
    ["order"]=3,
-   ["realpage"]=2,
+   ["realpage"]=3,
    ["section"]=0,
   },
   ["titledata"]={

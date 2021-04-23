@@ -1,6 +1,6 @@
 \startxmlsetups xml:teisetups
         \xmlsetsetup{#1}{*}{-} 
-        \xmlsetsetup{#1}{TEI|teiHeader|fileDesc|titleStmt|text|body|front|list|item|div|head|p|seg|bibl|ref|note}{xml:*}
+        \xmlsetsetup{#1}{TEI|teiHeader|fileDesc|titleStmt|sourceDesc|listObject|objectName|profileDesc|creation|idno|text|body|front|list|item|div|head|p|seg|bibl|ref|note}{xml:*}
         \xmlsetsetup{#1}{title[@level='a']}{xml:title_a}
 		\xmlsetsetup{#1}{title[@level='s']}{xml:title_s}
        	\xmlsetsetup{#1}{name[@role='Sprecher']}{xml:sprecher}
@@ -39,6 +39,18 @@
 
 \startxmlsetups xml:title_a
 	\title{\xmlflush{#1}}
+\stopxmlsetups
+
+\startxmlsetups xml:profileDesc
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:creation
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:idno
+	\xmlflush{#1}
 \stopxmlsetups
 
 \startxmlsetups xml:text

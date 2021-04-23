@@ -55,12 +55,12 @@ system          > start used files
 
 system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/char-prv.lua fullname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/char-prv.lua usedmethod=database
 system          >    2: filename=cont-yes.mkiv filetype=tex foundname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv fullname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=lua foundname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 system          >    4: filename=cont-new.mkiv filetype=tex foundname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/cont-new.mkiv fullname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=lua foundname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=lua foundname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=scripts foundname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=D:/texlive/2020/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=scripts foundname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 system          >    7: filename=frakstil.tex foundname=frakstil.tex fullname=C:/Users/Sven/KGParl-NC/SJ-Github/fraktionsprotokolle/tei-fraktionsprotokoll2ConTeXt/frakstil.tex usedmethod=direct
-system          >    8: filename=lang-de.lua filetype=lua foundname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-de.lua fullname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-de.lua usedmethod=database
+system          >    8: filename=lang-de.lua filetype=scripts foundname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-de.lua fullname=D:/texlive/2020/texmf-dist/tex/context/patterns/mkiv/lang-de.lua usedmethod=database
 system          >    9: filename=type-imp-texgyre.mkiv filetype=tex foundname=D:/texlive/2020/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=D:/texlive/2020/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
 system          >   10: filename=lm.lfg filetype=tex foundname=D:/texlive/2020/texmf-dist/tex/context/fonts/mkiv/lm.lfg fullname=D:/texlive/2020/texmf-dist/tex/context/fonts/mkiv/lm.lfg usedmethod=database
 system          >   11: filename=texgyretermes-regular filetype=otf format=otf foundname=D:/texlive/2020/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf fullname=D:/texlive/2020/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf usedmethod=database
@@ -77,11 +77,11 @@ system          > stop used files
 
 system          > start commandline options
 
-system          > currentrun="2"
+system          > currentrun="1"
 system          > environment="frakstil"
 system          > fulljobname="./spd.xml"
 system          > input="./spd.xml"
-system          > kindofrun="2"
+system          > kindofrun="1"
 system          > maxnofruns="9"
 system          > texmfbinpath="D:/texlive/2020/bin/win32"
 
@@ -103,29 +103,29 @@ modules         > stop used modules
 
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: D:/texlive/2020/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9
-mkiv lua stats  > resource resolver: loadtime 0.140 seconds, 1 scans with scantime 0.002 seconds, 0 shared scans, 18 found files, scanned paths: C:/Users/Sven/.texlive2020/texmf-config
-mkiv lua stats  > stored bytecode data: 450 modules (0.387 sec), 93 tables (0.013 sec), 543 chunks (0.400 sec)
+mkiv lua stats  > resource resolver: loadtime 0.129 seconds, 1 scans with scantime 0.003 seconds, 0 shared scans, 18 found files, scanned paths: C:/Users/Sven/.texlive2020/texmf-config
+mkiv lua stats  > stored bytecode data: 450 modules (0.354 sec), 93 tables (0.013 sec), 543 chunks (0.367 sec)
 mkiv lua stats  > traced context: maxstack: 1400, freed: 2, unreachable: 1398
 mkiv lua stats  > cleaned up reserved nodes: 56 nodes, 9 lists of 442
 mkiv lua stats  > node memory usage: 178 attribute, 45 attribute_list, 42 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 3295 calls
-mkiv lua stats  > h-node processing time: 0.079 seconds including kernel
-mkiv lua stats  > attribute processing time: 0.016 seconds front- and backend
-mkiv lua stats  > driver time: 0.994 seconds 
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 3300 calls
+mkiv lua stats  > h-node processing time: 0.077 seconds including kernel
+mkiv lua stats  > attribute processing time: 0.015 seconds front- and backend
+mkiv lua stats  > driver time: 0.699 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.008 seconds saving, 0.002 seconds loading
-mkiv lua stats  > callbacks: internal: 6428, file: 563, direct: 2, late: 42, function 3014, total: 10049 (1117 per page)
+mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.002 seconds loading
+mkiv lua stats  > callbacks: internal: 6438, file: 576, direct: 2, late: 42, function 3020, total: 10078 (1120 per page)
 mkiv lua stats  > randomizer: resumed with value 0.78811645507813
 mkiv lua stats  > result saved in file: spd.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: de::3 en::1, load time: 0.000
-mkiv lua stats  > xml load time: 0.004 seconds, 1 files, 1 converted
-mkiv lua stats  > lxml preparation time: 0.002 seconds, 504 nodes, 32 lpath calls, 4 cached calls
+mkiv lua stats  > xml load time: 0.003 seconds, 1 files, 1 converted
+mkiv lua stats  > lxml preparation time: 0.003 seconds, 504 nodes, 33 lpath calls, 4 cached calls
 mkiv lua stats  > interactive elements: 0 references, 41 destinations
 mkiv lua stats  > loaded fonts: 4 files: texgyretermes-math.otf, texgyretermes-bold.otf, texgyretermes-italic.otf, texgyretermes-regular.otf
-mkiv lua stats  > font engine: otf 3.111, afm 1.513, tfm 1.000, 19 instances, 13 shared in backend, 3 common vectors, 10 common hashes, load time 0.309 seconds 
+mkiv lua stats  > font engine: otf 3.111, afm 1.513, tfm 1.000, 19 instances, 13 shared in backend, 3 common vectors, 10 common hashes, load time 0.308 seconds 
 mkiv lua stats  > used platform: mswin, type: windows, binary subtree: bin
 mkiv lua stats  > used engine: luatex version: 1.12, functionality level: 7306, banner: this is luatex, version 1.12.0 (tex live 2020/w32tex)
-mkiv lua stats  > control sequences: 46134 of 65536 + 100000
+mkiv lua stats  > control sequences: 46138 of 65536 + 100000
 mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 139 MB, ctx: 138 MB, max: unknown MB, hash chars: min(32,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 2.230 seconds, 10 processed pages, 10 shipped pages, 4.484 pages/second
+mkiv lua stats  > runtime: 1.864 seconds, 10 processed pages, 10 shipped pages, 5.365 pages/second
 
