@@ -11,14 +11,43 @@
 
 \xmlregistersetup{xml:teisetups}
 
+% Definiere die Grösse der Buchseite und nenne sie _kgparlbuch_
+% Die simple Alternative wäre schlicht \setuppapersize[A4]
 
-\setuppapersize[A4]
+\definepapersize[kgparlbuch][width=170mm,height=243mm]
+\setuppapersize[kgparlbuch]
+
+
+% Einbindung von StempelGaramondLTPro als mystempel. Beware: Die Schrift sollte mit genau dem $filename im Font-Verzeichnis des TeX-Baums liegen: ../tex/texmf-fonts/fonts/..
+\starttypescript[mystempel]
+% \definefontsynonym[Human readable]       		[file:filename without extension]
+  \definefontsynonym[mystempel-Regular]    	[file:StempelGaramondLTPro-Roman]
+  \definefontsynonym[mystempel-Italic]     		[file:StempelGaramondLTPro-Italic]
+  \definefontsynonym[mystempel-Bold]       	[file:StempelGaramondLTPro-Bold]
+  \definefontsynonym[mystempel-BoldItalic] 		[file:StempelGaramondLTPro-BoldIt]
+\stoptypescript
+
+\starttypescript[mystempel]
+  \setups[font:fallback:serif]          % security: if not found==> back to defaults
+% \definefontsynonym[ConTeXt basics name] 	[Human readable]      	             [features=default]
+  \definefontsynonym[Serif]                [mystempel-Regular]   		 [features=default]
+  \definefontsynonym[SerifItalic]         	[mystempel-Italic]    			 [features=default]
+  \definefontsynonym[SerifBold]           	[mystempel-Bold]      	 	 [features=default]
+  \definefontsynonym[SerifBoldItalic]      	[mystempel-BoldItalic]		 	 [features=default]
+\stoptypescript
+
+\starttypescript[mystempel]
+  \definetypeface[mystempel]    [rm] [serif] [mystempel]    [default]
+\stoptypescript
+
+
 \mainlanguage[de]
-\setupbodyfont[termes,11pt]
+\setupbodyfont[mystempel]
+\setupbodyfont[10pt]
 \setupwhitespace[small]
 \setuptolerance[tolerant]
 \setuppagenumbering
-			[location={footer,right}]
+			[location={footer,center}]
 \setupheadertexts[Fraktionsprotokolle.de][erzeugt am \currentdate]
 
 
