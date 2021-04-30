@@ -16,17 +16,17 @@ fonts           > typescripts > unknown library 'modern-designsize'
 fonts           > 'fallback modern-designsize mm 12pt' is loaded
 fonts           > preloading modern-designsize (mono)
 fonts           > 'fallback modern-designsize tt 12pt' is loaded
-fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Roman', feature '', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Roman', feature '', script 'latn', no language 'dflt'
+fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
 close source    > level 2, order 3, name 'frakstil.tex'
 sandbox         > call > processing as xml: ./spd.xml
-structure       > sectioning > title @ level 2 : 0.0 -> Man kann hier auch beliebigen statischen Text vor den aus der XML-Datei gezogenen String »\xmlflush {main::9}« packen!
-fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
+structure       > sectioning > title @ level 2 : 0.0 -> Irgendwas kann hier rein »\xmlflush {main::9}« packen!
 fonts           > defining > font 'StempelGaramondLTPro-Roman', feature '', script 'latn', no language 'dflt'
-fonts           > defining > font 'StempelGaramondLTPro-Bold', feature 'locl', script 'latn', no language 'dflt'
+fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Bold', feature '', script 'latn', no language 'dflt'
+fonts           > defining > font 'StempelGaramondLTPro-Bold', feature 'locl', script 'latn', no language 'dflt'
 
 Underfull \hbox (badness 1888) in paragraph at lines 45--45
  [][][] <5: StempelGaramondLTPro-Roman @ 10.0pt> E. TOP 3: Infor-ma-tio-nen. – TOP 4: Vor-be-rei-tung der Ple-nar-sit-zun-gen:
@@ -46,10 +46,10 @@ Underfull \hbox (badness 1888) in paragraph at lines 45--45
 .\boundary=1
 .etc.
 
-fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Roman', feature '', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Roman', feature '', script 'latn', no language 'dflt'
+fonts           > defining > font 'StempelGaramondLTPro-Roman', feature 'locl', script 'latn', no language 'dflt'
 fonts           > defining > font 'StempelGaramondLTPro-Italic', feature 'locl', script 'latn', no language 'dflt'
 backend         > xmp > using file 'D:/texlive/2020/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
@@ -113,11 +113,11 @@ system          > stop used files
 
 system          > start commandline options
 
-system          > currentrun="2"
+system          > currentrun="1"
 system          > environment="frakstil"
 system          > fulljobname="./spd.xml"
 system          > input="./spd.xml"
-system          > kindofrun="2"
+system          > kindofrun="1"
 system          > maxnofruns="9"
 system          > texmfbinpath="D:/texlive/2020/bin/win32"
 
@@ -139,29 +139,30 @@ modules         > stop used modules
 
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: D:/texlive/2020/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9
-mkiv lua stats  > resource resolver: loadtime 0.156 seconds, 1 scans with scantime 0.003 seconds, 0 shared scans, 15 found files, scanned paths: C:/Users/Sven/.texlive2020/texmf-config
-mkiv lua stats  > stored bytecode data: 450 modules (0.420 sec), 93 tables (0.014 sec), 543 chunks (0.434 sec)
+mkiv lua stats  > resource resolver: loadtime 0.153 seconds, 1 scans with scantime 0.002 seconds, 0 shared scans, 15 found files, scanned paths: C:/Users/Sven/.texlive2020/texmf-config
+mkiv lua stats  > stored bytecode data: 450 modules (0.377 sec), 93 tables (0.014 sec), 543 chunks (0.391 sec)
 mkiv lua stats  > traced context: maxstack: 1400, freed: 2, unreachable: 1398
 mkiv lua stats  > cleaned up reserved nodes: 56 nodes, 9 lists of 442
 mkiv lua stats  > node memory usage: 186 attribute, 47 attribute_list, 44 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 3563 calls
-mkiv lua stats  > h-node processing time: 0.103 seconds including kernel
-mkiv lua stats  > attribute processing time: 0.016 seconds front- and backend
-mkiv lua stats  > driver time: 1.032 seconds 
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 3564 calls
+mkiv lua stats  > h-node processing time: 0.147 seconds including kernel
+mkiv lua stats  > attribute processing time: 0.020 seconds front- and backend
+mkiv lua stats  > driver time: 1.037 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.006 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 6950, file: 323, direct: 2, late: 44, function 3053, total: 10372 (943 per page)
+mkiv lua stats  > jobdata time: 0.006 seconds saving, 0.003 seconds loading
+mkiv lua stats  > callbacks: internal: 6959, file: 326, direct: 14, late: 44, function 3053, total: 10396 (945 per page)
 mkiv lua stats  > randomizer: resumed with value 0.77581787109375
+mkiv lua stats  > v-node processing time: 0.011 seconds 
 mkiv lua stats  > result saved in file: spd.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: de::3 en::1, load time: 0.000
 mkiv lua stats  > xml load time: 0.004 seconds, 1 files, 1 converted
-mkiv lua stats  > lxml preparation time: 0.005 seconds, 512 nodes, 34 lpath calls, 4 cached calls
+mkiv lua stats  > lxml preparation time: 0.004 seconds, 512 nodes, 34 lpath calls, 4 cached calls
 mkiv lua stats  > interactive elements: 0 references, 43 destinations
 mkiv lua stats  > loaded fonts: 3 files: stempelgaramondltpro-bold.otf, stempelgaramondltpro-italic.otf, stempelgaramondltpro-roman.otf
-mkiv lua stats  > font engine: otf 3.111, afm 1.513, tfm 1.000, 15 instances, 12 shared in backend, 1 common vectors, 11 common hashes, load time 0.042 seconds 
+mkiv lua stats  > font engine: otf 3.111, afm 1.513, tfm 1.000, 15 instances, 12 shared in backend, 1 common vectors, 11 common hashes, load time 0.050 seconds 
 mkiv lua stats  > used platform: mswin, type: windows, binary subtree: bin
 mkiv lua stats  > used engine: luatex version: 1.12, functionality level: 7306, banner: this is luatex, version 1.12.0 (tex live 2020/w32tex)
-mkiv lua stats  > control sequences: 45380 of 65536 + 100000
+mkiv lua stats  > control sequences: 45381 of 65536 + 100000
 mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 110 MB, ctx: 109 MB, max: unknown MB, hash chars: min(32,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 2.053 seconds, 12 processed pages, 12 shipped pages, 5.845 pages/second
+mkiv lua stats  > runtime: 2.157 seconds, 12 processed pages, 12 shipped pages, 5.563 pages/second
 

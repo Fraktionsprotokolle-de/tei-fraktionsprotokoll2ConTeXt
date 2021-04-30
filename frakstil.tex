@@ -48,7 +48,10 @@
 \setuptolerance[tolerant]
 \setuppagenumbering
 			[location={footer,center}]
-\setupheadertexts[Fraktionsprotokolle.de][erzeugt am \currentdate]
+\setupheadertexts[Quelldatei = \ctxlua{context(environment.inputfilename)}]
+		[PDF erzeugt am \currentdate]
+
+
 
 
 \startxmlsetups xml:TEI
@@ -68,7 +71,7 @@
 \stopxmlsetups
 
 \startxmlsetups xml:title_a
-	\title{Man kann hier auch beliebigen statischen Text vor den aus der XML-Datei gezogenen String »\xmlflush{#1}« packen!}
+	\title{Irgendwas kann hier rein »\xmlflush{#1}« packen!}
 \stopxmlsetups
 
 \startxmlsetups xml:profileDesc
