@@ -48,6 +48,8 @@
 \setuptolerance[tolerant]
 \setuppagenumbering
 			[location={footer,center}]
+			
+% Kleiner Lua-Schnipsel, um den aktuellen Dateinamen in den Header zu packen			
 \setupheadertexts[Quelldatei = \ctxlua{context(environment.inputfilename)}]
 		[PDF erzeugt am \currentdate]
 
