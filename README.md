@@ -7,7 +7,7 @@ Sobald ConTeXt installiert ist, reicht der Aufruf von `context --environment=fra
 
 Alle wichtigen Informationen werden als Text dargestellt. Sprechernamen sind fett, erwähnte Namen vom Typ Person sind kursiv. Organisationen, Bibliogrphien etc. werden aktuell nicht optisch hervorgehoben.
 
-Die Auflösung eine Abkürzung wird als Fußnote angezeigt.
+Die Auflösung einer Abkürzung wird als Fußnote angezeigt.
 
 
 
