@@ -15,4 +15,5 @@ To-Do:
 - Metadaten aus dem teiHeader (Titel, Fraktion, Datum)
 - Layout & Mengensatz verbessern (Silbentrennung? Eventuell linksbündig setzen?)
 - incidents, pause usf. fehlen
-- Test
+
+  
